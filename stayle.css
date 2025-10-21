@@ -1,0 +1,75 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #eba7ff;
+    color: #923e8b;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff78e2;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f7f5f5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    color: #700674;
+    margin-bottom: 10px;
+}
+
+.projeto {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #ff43c6;
+}
+
+.projeto a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #d56cff;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e44cb6;
+    color: #ffffff;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
